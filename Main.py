@@ -168,9 +168,9 @@ with Challenges:
                     st.dataframe(data=Issue_Category_1, use_container_width=False)
                     st.code("df[df['product_name'].str.contains(r'\w*Under Armour\w*',case=False)][['category_id','category_name','product_name']].value_counts().reset_index(name='count')")
                     st.write("""
-                    * Total_All_Sales : 36,784,740.0
-                    * Total_Sales_Electronic : 333,327.25 = 0.9 % from total sales
-                    * Electronic_row_count:3156 , And DF_row_count: 180,519 = 1.7 %
+                    * Total_All_Sales : 3,966,902.75
+                    * Total_Sales_Electronic : 40,891.38 = 0.01 % from total sales
+                    * Electronic_row_count:3156 , And DF_row_count: 180,519 = 0.017 %
 
                     - (My comment & action) : After categorization count check :
                     - There are items allocated to wrong category = "Electronic" ,
