@@ -197,7 +197,7 @@ with Insight:
         st.info("""
         * The Main Feature Analysis :
             Order Status , OPS Status , Order Profit Status , Type (Payment Method) , Market , Customer Segment , 
-            Shipment Mode Days Shipment , Order Region , Department Name , Order/ Year/Month/Day , Late Delivery Risk
+            Shipment Mode (Days Shipment) , Order Region , Department Name , Order/ Year/Month/Day , Late Delivery Risk
         """)
         Sales_Box = st.checkbox(":blue[Sales 💰 Insight]")
         if Sales_Box:
@@ -233,8 +233,8 @@ with Insight:
                     MSK = Products_profit_details_Update.describe()
                         """)
             st.error("""
-                * By Checking Sales (Profit per order), found about 18.7 % has Nigative Values in (item_profit_ratio)
-                  And this caused to convert the profile value to nigative.
+                * By Checking Sales (Profit per order), found about 18.7 % has negative Values in (item_profit_ratio)
+                  And this caused to convert the profile value to negative.
                 * So we shall check by many ways to get the final observations and cuses from the possbile Data.
                   """)
 
@@ -491,9 +491,8 @@ with Insight:
                     * Note:
                         * EE UU is the Spanish abbreviation for Estados Unidos, which means United States of America.
                         * Puerto Rico is located in the Caribbean Sea, and it has a population of over 3 million people. The official languages of Puerto Rico are Spanish and English.
-                    * Consumers are the final users of goods or services. They are the people who purchase and use products for their own needs.
-                    * 61% of Customers from “Puerto Rico” (12k Customers) and the rest from USA (Central of USA as next EDAs).
-                    * But the 38% of Customer (That from USA) take 61% from the Orders (111k orders) with 52% from total Profit (2M).
+                        * Consumers are the final users of goods or services. They are the people who purchase and use products for their own needs.
+                    * 61% of Customers from “Puerto Rico” (12k Customers) and the rest from USA (Central of USA as next EDAs), take 61% from the Orders (111k orders) with 52% from total Profit (2M).
                     * 51% of Customers are “Consumers” (10k Customers).""")
 #________________________________________________________________________________________________________________________________________________________________________________________________________
     with st.container():
