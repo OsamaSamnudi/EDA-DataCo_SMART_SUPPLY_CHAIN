@@ -385,16 +385,16 @@ with Insight:
                 st.plotly_chart(Fig_Line_s , use_container_width=True,theme="streamlit")
                 st.subheader("🔚 Conclusions on Sales :")
                 st.write("""
-                *  By Checking Sales found about 18.7 % has Nigative Values in (item_profit_ratio) And this caused to convert the profile value to nigative.
-                *  So we compaired the new Features (Profit per order)/(OPS Status)/(order_profit_status) and (order_profit_per_order) vs Every effective Featrure:
+                *  By Checking Sales found about 18.7 % has Negative Values in (item_profit_ratio) and this caused to convert the profile value to negative.
+                *  So we compared the new Features (Profit per order)/(OPS Status)/(order_profit_status) and (order_profit_per_order) vs Every effective Feature:
                 *  Found that the distribution of Loss is Over years no in spacifice Feature.
-                *  Year: Found that the distribution of Loss is Over years no in spacifice year (Gain 24% : 28%) and (Loss 5% : 6%) over all years.
-                *  OPS Status : The same with this Fearture that indicates The order/Payment Completion Status.
+                *  Year: Found that the distribution of Loss is Over years no in specific year (Gain 24% : 28%) and (Loss 5% : 6%) overall years.
+                *  OPS Status : The same with this Feature that indicates The order/Payment Completion Status.
                     *  The Completed is the top then Under Process, which indicates for Good Progress.
                        But once view in deep for the details of OPS Status the new feature of "order_status" found "Pending Orders/Payments" in every year, which indicates for wrong details,
                        or the data got in a spacific time around these years.
                 *  Type : Debit Payment method is the most used then Transfer , which indicates that the most customers have deals with this company.
-                *  Market : Europ and Latam are the most Market in data contrary to USA, Africa.
+                *  Market : Europe and Latam are the most Market in data contrary to USA, Africa.
                 *  Customer Segment : Consumer is the top (42% - 4M).
                 *  Shipping_mode : Stander Class is the Top (48% - 4.7M).
                 *  days_shipping(status) : Most of status is late (46% - 4.4M).
@@ -403,11 +403,11 @@ with Insight:
                 * 🔚 Finally :
                     *  The Negative values is one from below :
                         *  Wrong Data , Should recalculate the Profit again and is this case the profit will be "11M" instated of "7M".
-                        *  True Data , and in this case should know the reason as no feature is indecate the cost for every step (Operations, Orders, Shipping)
-                    *  About 48% is Loss so if considrate that the data is True, we have focus for "Late" orders to reduce it.
-                      Western Europe is the top region, may the shipment cost the couse for the loss.
+                        *  True Data , and in this case should know the reason as no feature is indicate the cost for every step (Operations, Orders, Shipping)
+                    * About 48% is Loss so if considerate that the data is True, we have focus for "Late" orders to reduce it.
+                      Western Europe is the top region, may the shipment cost the cause for the loss.
                     * Profit in all Years (2015 to 07/2017) likely same, but a drop happened starting form 08/2017 and it is expected reaction for the “Late” Comment.
-                    * No Addition details for cost type to clarify the reason on negarive ratio precentange.
+                    * No Addition details for cost type to clarify the reason on negative ratio percentage.
                 """)
 #________________________________________________________________________________________________________________________________________________________________________________________________________
     with st.container():
