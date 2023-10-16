@@ -387,8 +387,8 @@ with Insight:
                 st.write("""
                 *  By Checking Sales found about 18.7 % has Negative Values in (item_profit_ratio) and this caused to convert the profile value to negative.
                 *  So we compared the new Features (Profit per order)/(OPS Status)/(order_profit_status) and (order_profit_per_order) vs Every effective Feature:
-                *  Found that the distribution of Loss is Over years no in spacifice Feature.
-                *  Year: Found that the distribution of Loss is Over years no in specific year (Gain 24% : 28%) and (Loss 5% : 6%) overall years.
+                *  Found that the distribution of Loss is Over years not in spacifice Feature.
+                *  Year: Found that the distribution of Loss is Over years not in specific year (Gain 24% : 28%) and (Loss 5% : 6%) overall years.
                 *  OPS Status : The same with this Feature that indicates The order/Payment Completion Status.
                     *  The Completed is the top then Under Process, which indicates for Good Progress.
                        But once view in deep for the details of OPS Status the new feature of "order_status" found "Pending Orders/Payments" in every year, which indicates for wrong details,
